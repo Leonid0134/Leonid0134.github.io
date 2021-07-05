@@ -3,11 +3,11 @@
   max-width: 1600px;
   margin: 0 auto;
   font-family: 'Helvetica Neue', Arial, sans-serif;
-  }
+}
 
 * {
   box-sizing: border-box;
-  }
+}
 
 .header {
   position: relative;
@@ -18,19 +18,19 @@
   max-height: 756px;
   background-color: #f2f2f2;
   overflow: hidden;
-  }
+}
 
 .logo {
   width: 183px;
   height: 32px;
-  }
+}
 
 .logo_place_header {
   position: absolute;
   top: 30px;
   left: 64px;
   z-index: 2;
-  }
+}
 
 .header__title {
   max-width: 730px;
@@ -39,7 +39,7 @@
   font-weight: 700;
   z-index: 2;
   margin: 0 0 0 64px;
-  }
+}
 
 .header__subtitle {
   position: absolute;
@@ -51,17 +51,17 @@
   line-height: 25px;
   z-index: 2;
   margin: 0;
-  }
+}
 
 .header__link {
   color: #2F80ED;
   text-decoration: none;
-  }
+}
 
 .header__link:hover {
   opacity: 0.7;
   transition: 0.4s linear;
-  }
+}
 
 .header__main-illustration {
   display: block;
@@ -71,7 +71,7 @@
   position: absolute;
   bottom: 0;
   right: 0;
-  }
+}
 
 .header__square-pic {
   position: absolute;
