@@ -258,46 +258,65 @@
 }
 
 .footer {
-  padding-top: 60px;
-  padding-bottom: 40px;
-  background-color:#1F1F1F;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -ms-flex-preferred-size: 711px;
+  flex-basis: 711px;
   min-height: 350px;
+  background-color: #1f1f1f;
+  color: white;
 }
 
-.footer__columns {
-  color: white;
-  min-height: 350px;
-  width: 90%;
+.footer__columns{
+  margin: 60px 0 40px;
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
-  margin: auto;
+  width: 90%;
 }
 
 .footer__column_content_copyright {
+  display: -webkit-box;
+  display: -ms-flexbox;
   display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
   flex-direction: column;
+  -webkit-box-pack: justify;
+  -ms-flex-pack: justify;
   justify-content: space-between;
+  -ms-flex-preferred-size: 711px;
   flex-basis: 711px;
 }
 
 .footer__author {
-  padding: 18px 0;
+  margin: 18px 0;
   line-height: 25px;
   font-size: 18px;
-  font-weight: 400;
-  margin: 0;
+  font-weight: normal;
 }
 
 .footer__column-heading {
+  margin:  0 0 20px;
   line-height: 30px;
   font-size: 18px;
-  font-weight: 700;
-  margin: 0 0 20px 0;
+  font-weight: bolder;
 }
 
-.footer__column-links {
-  padding: 0;
-  margin: 0;
+.footer__column-link {
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+  color: #f2f2f2;
+  text-decoration: none;
 }
 
 .footer__list-item {
@@ -318,7 +337,30 @@
 }
 
 .footer__social-icon {
-  margin-right: 10px;
-  height: 16px;
   width: 16px;
+  height: 16px;
+  margin-right: 10px;
+  line-height: 30px;
+  font-size: 18px;
+  font-weight: normal;
+}
+
+.footer__column_content_info {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
+}
+
+.footer__column_content_social {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: vertical;
+  -webkit-box-direction: normal;
+  -ms-flex-direction: column;
+  flex-direction: column;
 }
