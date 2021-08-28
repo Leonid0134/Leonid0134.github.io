@@ -289,23 +289,25 @@
   font-size: 18px;
   font-weight: normal;
   color: white;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  text-decoration: none;
 }
 
 .footer__column-links-list {
-  list-style-type: none;
-  margin: 0;
-  padding: 0;
+  display: flex;
+  flex-direction: column;
 }
 
 .footer__column-links {
-  margin-bottom: 16px;
+  display: flex;
+  flex-direction: column;
+  text-decoration: none;
 }
 
 .footer__column {
   display: flex;
   flex-direction: column;
+  justify-content: flex-start;
 }
 
 .footer__column_content_copyright {
@@ -334,7 +336,8 @@
 }
 
 .footer__social-icon {
-  padding-right: 10px;
+  display: flex;
+  margin-right: 10px;
 }
 
 .footer__list-item {
